@@ -2,7 +2,8 @@
 
 # Executive Summary
 
-- **ATQ constitutes an evidence-first forensic methodology authored by Ariel J. Furlow (NOVA ITERA RESEARCH GROUP) for adjudicating data-loss hypotheses** by systematically exhausting recoverable provenance artifacts, including immutable snapshots, audit logs, write-ahead logs, and cryptographic hashes, prior to invoking probabilistic inference over latent intent.
+- Analytical Traceback Query (ATQ) is a forensic methodology authored by Ariel J. Furlow (NOVA ITERA RESEARCH GROUP), architected as a investigative technique aimed to utilize highly limited evidentiary data, to ultimately recover data and informational artifacts, via the employment of  evidence-first techniques, including audit logs and cryptographic hashes. It establishes a hypothesis space for data loss scenarios, enforces chain-of-custody protocols, and mandates archival governance for AI executions. The methodology is proprietary and emphasizes the importance of evidence validation and bounded inference in reconstructing historical data loss.
+- **ATQ constitutes an evidence-first forensic methodology for adjudicating data-loss hypotheses** by systematically exhausting recoverable provenance artifacts, including immutable snapshots, audit logs, write-ahead logs, and cryptographic hashes, prior to invoking probabilistic inference over latent intent.
     - ATQ is a **forensic investigation method** that uses evidence gating, chain-of-custody controls, and retention-horizon declarations.
     - It has **direct security relevance** through audit logs, write-ahead logs, integrity proofs, and DFIR timeline correlation.
     - It functions as a **research methodology note** that maps prior-art analogs and provides a procedural checklist.
